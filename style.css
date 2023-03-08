@@ -68,11 +68,18 @@ body {
     align-items: center;
 }
 
-.main__text {
-    width: 50rem;
+.main__div {
     height: 5%;
+    width: 50rem;
+}
+
+.main__text {
+    width: 100%;
+    height: 100%;
     border-radius: 1.5rem;
     border: 0.1rem solid grey;
+    padding: 0 4rem;
+    position: relative;
 }
 
 .main__figure {
@@ -108,6 +115,26 @@ body {
     /* margin-right: 1.2rem; */
     border: none;
     border-radius: 0.5rem;
+    cursor: pointer;
+}
+
+/* main pictures input */
+
+.main__img--lupa, .main__img--voz {
+    height: 2.0rem;
+    width: 2.0rem;
+    position: relative;
+    cursor: pointer;
+}
+
+.main__img--lupa {
+    bottom: 2.8rem;
+    left: 1rem;
+}
+
+.main__img--voz {
+    bottom: 2.8rem;
+    left: 44.5rem;
 }
 
 /* footer */
